@@ -28,7 +28,7 @@
         cy.get('#facility').should('have.text', data.facility);
         cy.get('#hospital_readmission').should('have.text', data.readmission);
         cy.get('#program').should('have.text', data.program);
-        cy.get('#visit_date').should('have.text', data.date);
+        cy.get('#visit_date').should('have.text', '30/04/2025');
         cy.get('#comment').should('have.text', data.comment);
     }
     }

@@ -1,6 +1,6 @@
-    import loginPage from '../../pages/cura/loginPage';
-    import menuPage from '../../pages/cura/menuPage';
-    import historyPage from '../../pages/cura/historyPage';
+    import loginPage from '../Pages/loginPage';
+    import menuPage from '../Pages/menuPage'
+    import historyPage from '../pages/historyPage';
 
     describe('Appointment history empty', () => {
     it('should show no appointments in history', () => {

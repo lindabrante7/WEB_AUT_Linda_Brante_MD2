@@ -1,7 +1,6 @@
-    import loginPage from '../../Pages/cura/loginPage';
-    import appointmentPage from '../../pages/cura/appointmentPage';
-
-    describe('Make an Appointment', () => {
+import loginPage from "../Pages/loginPage";
+import appointmentPage from "../Pages/appointmentPage";
+    describe('Scenario 1 - Make an Appointment', () => {
     it('should make an appointment successfully', () => {
         loginPage.visit();
         loginPage.clickMakeAppointment();
@@ -18,7 +17,7 @@
         facility: 'Seoul CURA Healthcare Center',
         readmission: 'Yes',
         program: 'Medicaid',
-        date: '30/05/2025',
+        date: '30/05/2025',  // update to correct format if needed
         comment: 'CURA Healthcare Service'
         });
     });
